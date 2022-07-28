@@ -8,7 +8,7 @@ const Modal = ({ isOpen, onClose, modalData }) => {
             <div onClick={(event) => event.stopPropagation()}>
                 <div className="modal_wrapper">
                     <div className="modal_close" onClick={onClose}>Close</div>
-                    <div className="modal_title">This is your plan.</div>
+                    <div className="modal_title">This is your plan</div>
                     <div className="modal_data">
                         <div className="modal_left">Duration:</div>
                         <div className="modal_right">{modalData.name}</div>
